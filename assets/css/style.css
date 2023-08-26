@@ -1276,3 +1276,12 @@ section {
     display: block;
   }
 }
+@media (max-width: 992px) {
+  #hero .proyectos{
+    display: flex;
+    justify-content: center;
+  }
+  #hero .proyectos a{
+    font-size: 15px;
+  }
+}
