@@ -270,14 +270,8 @@
 })()
 
 // fin de la plantilla
-//contacto mensajes
-function mensaje(x){
-  if(x){
-$("#bien").css("display","block");
-$("#mal").css("display","none");
-  }else{
-    $("#mal").css("display","block");
-    $("#bien").css("display","none");
-  }
 
-}
+$(document).ready(function(){
+  $('html').animate({scrollTop:0}, 'slow'); // para IE, FF
+  $('body').animate({scrollTop:0}, 'slow'); // Para Chrome
+});
