@@ -1254,3 +1254,7 @@ section {
   background-color: #d4627f;
   border-color: #d4627f;
 }
+#hero .social-links .correo{
+  font-size: 20px;
+  text-decoration: underline;
+}
