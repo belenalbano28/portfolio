@@ -1226,3 +1226,31 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+#hero .proyectos a {
+  font-size: 20px;
+  background-color: #d04468;
+  border-color: #d04468;
+  display: inline-block;
+  color: #ffffff;
+  line-height: 1;
+  margin-top: 10px;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+#hero .proyectos a:hover{
+  background-color: #d4627f;
+  border-color: #d4627f;
+}
+.back-to-top:hover{
+  background-color: #d4627f;
+  border-color: #d4627f;
+}
+.contact .php-email-form button[type=submit]:hover{
+  background-color: #d4627f;
+  border-color: #d4627f;
+}
+#footer .social-links a:hover{
+  background-color: #d4627f;
+  border-color: #d4627f;
+}
