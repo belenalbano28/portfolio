@@ -268,3 +268,16 @@
   new PureCounter();
 
 })()
+
+// fin de la plantilla
+//contacto mensajes
+function mensaje(x){
+  if(x){
+$("#bien").css("display","block");
+$("#mal").css("display","none");
+  }else{
+    $("#mal").css("display","block");
+    $("#bien").css("display","none");
+  }
+
+}

@@ -10,11 +10,11 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="../Portfolio/assets/img/apple-touch-icon.png">
-  <link rel="android-chrome" sizes="192x192" href="../Portfolio/assets/img/android-chrome-192x192.png">
-  <link rel="android-chrome" sizes="512x512" href="../Portfolio/assets/img/android-chrome-512x512.png">
-<link rel="icon" type="image/png" sizes="32x32" href="../Portfolio/assets/img/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../Portfolio/assets/img/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+  <link rel="android-chrome" sizes="192x192" href="assets/img/android-chrome-192x192.png">
+  <link rel="android-chrome" sizes="512x512" href="assets/img/android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 
   <!-- Google Fonts -->
@@ -119,14 +119,14 @@
           <h2>Currículum Vitae</h2>
           <p>Para conocer más información sobre mi educación, habilidades y referencias puedes descargar 
             mi curriculum. Este se encuentra disponible en los botones de debajo, tanto en español como en inglés.
-            Si estás interesado en conocer mis habilidades técnicas, puedes revisar mi CV Técnico en <a class="link-opacity-75-hover" href="../Portfolio/assets/img/curriculum tecnico inglés.pdf#PAGE=1">este link (inglés)</a>, ó
-            en <a class="link-opacity-75-hover" href="../Portfolio/assets/img/currículum Técnico.pdf#PAGE=1">este link (español)</a>.
+            Si estás interesado en conocer mis habilidades técnicas, puedes revisar mi CV Técnico en <a class="link-opacity-75-hover" href="assets/img/curriculum tecnico inglés.pdf#PAGE=1">este link (inglés)</a>, ó
+            en <a class="link-opacity-75-hover" href="assets/img/currículum Técnico.pdf#PAGE=1">este link (español)</a>.
           </p>
         </div>
 
         <div class="row">
-         <A HREF="../Portfolio/assets/img/currículum Developer.pdf#PAGE=1" class="btn btn-secondary btn-sm">CV Español</A>
-         <A HREF="../Portfolio/assets/img/curriculum developer ingles.pdf#PAGE=1" class="btn btn-secondary btn-sm">CV Inglés</A>
+         <A HREF="assets/img/currículum Developer.pdf#PAGE=1" class="btn btn-secondary btn-sm">CV Español</A>
+         <A HREF="assets/img/curriculum developer ingles.pdf#PAGE=1" class="btn btn-secondary btn-sm">CV Inglés</A>
         </div>
 
       </div>
@@ -428,24 +428,24 @@
       <form action="forms/contact.php" method="post" role="form" class="php-email-form">
         <div class="row">
           <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
           </div>
           <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
           </div>
         </div>
         <div class="form-group mt-3">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+          <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
         </div>
         <div class="form-group mt-3">
-          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
         </div>
         <div class="my-3">
-          <div class="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message">Your message has been sent. Thank you!</div>
+          <div class="loading">Cargando</div>
+          <div id="mal" class="error-message">Ha ocurrido un error.</div>
+          <div id="bien" class="sent-message">Enviado correctamente.</div>
         </div>
-        <div class="text-center"><button type="submit">Send Message</button></div>
+        <div class="text-center"><button type="submit">Enviar</button></div>
       </form>
 
     </div>
